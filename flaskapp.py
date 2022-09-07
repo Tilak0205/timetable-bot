@@ -273,7 +273,7 @@ def hello_world():
     # cls=input("Enter Class: \n")
     res = switch_cls(cls,day)
     print(res)
-    return "hello"
+    return res
 # main driver function
 if __name__ == '__main__':
 
