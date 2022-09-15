@@ -1,1 +1,1 @@
-web: gunicorn flaskapp:app
+worker: python bot.py
