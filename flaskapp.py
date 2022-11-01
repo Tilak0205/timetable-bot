@@ -27,181 +27,95 @@ def hello_world():
     print(cls,day)
     # cls = req.params["class"]
     # day = req.params["day"]
-    def switch_day_302(day):
+    def switch_day_114(day):
         if day=='monday':
-            # print("09:00 AM TO 09:55 AM - ES(BS2201)")
-            # print("10:00 AM TO 10:55 AM - DAA(CS2203)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            result = "09:00 AM TO 09:55 AM - ES(BS2201)<br> 10:00 AM TO 10:55 AM - DAA(CS2203)<br> 11:00 AM TO 11:55 AM - COA(CS2201)"
+            result = "09:00 AM TO 09:55 AM - AI(CS31XX)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - FLAT(CS3103)\n12:00 PM TO 12:55 PM SS(EC3106)"
             return result
         elif day=='tuesday':
-            # print("09:00 AM TO 09:55 AM - DA(CS2204)")
-            # print("10:00 AM TO 10:55 AM - DAA(CS2203)")
-            # print("11:00 AM TO 11:55 AM - ES(BS2201)")
-            # print("12:00 PM TO 12:55 PM - ME(BM2201)")
-            # print("02:00 PM TO 05:55 PM - COA LAB(CS2801)")
-            result ="09:00 AM TO 09:55 AM - DA(CS2204)<br>10:00 AM TO 10:55 AM - DAA(CS2203)<br>11:00 AM TO 11:55 AM - ES(BS2201)<br>12:00 PM TO 12:55 PM - ME(BM2201)<br>02:00 PM TO 05:55 PM - COA LAB(CS2801)"
+            result ="09:00 AM TO 09:55 AM - SS(EC3106)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - AI(CS31XX)\n12:00 PM TO 12:55 PM - OS(CS3101)\n02:00 PM TO 02:55 PM POM(BM002)"
             return result
         elif day=='wednesday':
-            # print("09:00 AM TO 09:55 AM - DBMS(CS2202)")
-            # print("10:00 AM TO 10:55 AM - DA(CS2204)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("02:00 PM TO 05:55 PM - DAA LAB(CS2803)")
-            result="09:00 AM TO 09:55 AM - DBMS(CS2202)<br>10:00 AM TO 10:55 AM - DA(CS2204)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>02:00 PM TO 05:55 PM - DAA LAB(CS2803)"
+            result="09:00 AM TO 09:55 AM - POM(BM002)\n10:00 AM TO 10:55 AM - FLAT(CS3103)\n11:00 AM TO 11:55 AM - SOFT SKILLS(HS3101)\n12:00 PM TO 12:55 PM - OS(CS3101)"
             return result
         elif day=='thursday':
-            # print("09:00 AM TO 09:55 AM - DA(CS2204)")
-            # print("10:00 AM TO 10:55 AM - DAA(CS2203)")
-            # print("11:00 AM TO 11:55 AM - DBMS(CS2202)")
-            # print("02:00 PM TO 02:55 PM - ME(BM2201)")
-            result="09:00 AM TO 09:55 AM - DA(CS2204)<br>10:00 AM TO 10:55 AM - DAA(CS2203)<br>11:00 AM TO 11:55 AM - DBMS(CS2202)<br>02:00 PM TO 02:55 PM - ME(BM2201)"
+            result="09:00 AM TO 09:55 AM - OOPS(CS3102)\n10:00 AM TO 10:55 AM - FLAT(CS3103)n11:00 AM TO 11:55 AM - AI(CS31XX)\n12:00 PM TO 12:55 PM - SOFT SKILLS(HS3101)\n02:00 PM TO 05:55 PM OOPS LAB(CS3702)"
             return result
         elif day=='friday':
-            # print("09:00 AM TO 09:55 AM - ES(BS2201)")
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DBMS(CS2202)")
-            # print("02:00 PM TO 05:55 PM - DBMS LAB(CS2802)")
-            result= "09:00 AM TO 09:55 AM - ES(BS2201)<br>10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DBMS(CS2202)<br>02:00 PM TO 05:55 PM - DBMS LAB(CS2802)"
+            result= "09:00 AM TO 09:55 AM - OS(CS3101)\n10:00 AM TO 10:55 AM - SS(EC3106)\n11:00 AM TO 11:55 AM - POM(BM002)\n02:00 PM TO 05:55 PM - OS LAB(CS3701)"
             return result
         elif day=='saturday':
-            # print("02:00 PM TO 02:55 PM - ME(BM2201)")
-            result="02:00 PM TO 02:55 PM - ME(BM2201)"
+            result="You don't have any classes today... Enjoy and Be productive in the weekend..."
             return result
         elif day=='sunday':
             # print("You don't have any classes today... Enjoy and Be productive in the weekend...")
             result="You don't have any classes today... Enjoy and Be productive in the weekend..."
             return result
 
-    def switch_day_303(day):
+    def switch_day_103(day):
         if day=='monday':
-            # print("09:00 AM TO 09:55 AM - DA(CS2204)")
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("12:00 PM TO 12:55 PM - ES(BS2201)")
-            # print("02:00 PM TO 05:55 PM - DBMS LAB(CS2802)")
-            result ="09:00 AM TO 09:55 AM - DA(CS2204)<br>10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>12:00 PM TO 12:55 PM - ES(BS2201)<br>02:00 PM TO 05:55 PM - DBMS LAB(CS2802)"
+            result ="09:00 AM TO 09:55 AM - OS(CS3101)\n10:00 AM TO 10:55 AM - AI(CS31XX)\n11:00 AM TO 11:55 AM - OOPS(CS3102)\n12:00 PM TO 12:55 PM - SOFT SKILLS(HS3101)\n02:00 PM TO 02:55 PM - POM(BM002)"
             return result
         elif day=='tuesday':
-            # print("09:00 AM TO 09:55 AM - DBMS(CS2202)")
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("12:00 PM TO 12:55 PM - DA(CS2204)")
-            result = "09:00 AM TO 09:55 AM - DBMS(CS2202)<br>10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>12:00 PM TO 12:55 PM - DA(CS2204)"
+            result = "09:00 AM TO 09:55 AM - AI(CS31XX)\n10:00 AM TO 10:55 AM - SS(EC3106)\n11:00 AM TO 11:55 AM - OS(CS3101)\n12:00 PM TO 12:55 PM - SOFT SKILLS(HS3101)\n03:00 PM TO 03:55 PM - POM(BM002)"
             return result
         elif day=='wednesday':
-            # print("09:00 AM TO 09:55 AM - ES(BS2201)")
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - ME(BM2201)")
-            # print("02:00 PM TO 05:55 PM - DAA LAB(CS2803)")
-            result= "09:00 AM TO 09:55 AM - ES(BS2201)<br>10:00 AM TO 10:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - ME(BM2201)<br>02:00 PM TO 05:55 PM - DAA LAB(CS2803)"
+            result= "09:00 AM TO 09:55 AM - OOPS(CS3102)\n10:00 AM TO 10:55 AM - OS(CS3101)\n11:00 AM TO 11:55 AM - FLAT(CS3103)\n12:00 PM TO 12:55 PM - SS(EC3106)\n12:00 PM TO 12:55 PM - OS LAB(CS3701)"
             return result
         elif day=='thursday':
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("12:00 PM TO 12:55 PM - DAA(CS2203)")
-            # print("02:00 PM TO 05:55 PM - COA LAB(CS2801)")
-            result = "10:00 AM TO 10:55 AM - DBMS(CS2202)<br>12:00 PM TO 12:55 PM - DAA(CS2203)<br>02:00 PM TO 05:55 PM - COA LAB(CS2801)"
+            result = "10:00 AM TO 10:55 AM - AI(CS31XX)\n11:00 PM TO 11:55 PM - FLAT(CS3103)"
             return result
         elif day=='friday':
-            # print("10:00 AM TO 10:55 AM - DA(CS2204)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("02:00 PM TO 02:55 PM - ME(BM2201)")
-            result="10:00 AM TO 10:55 AM - DA(CS2204)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>02:00 PM TO 02:55 PM - ME(BM2201)\n"
+            result="09:00 AM TO 09:55 AM - FLAT(CS3103)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - SS(EC3106)\n12:00 PM TO 12:55 PM - POM(BM002)\n02:00 PM TO 05:55 PM - OOPS LAB(CS3702)"
             return result
         elif day=='saturday':
-            # print("10:00 AM TO 10:55 AM - ME(BM2201)")
-            # print("12:00 PM TO 12:55 PM - ES(BS2201)")
-            result="10:00 AM TO 10:55 AM - ME(BM2201)<br>12:00 PM TO 12:55 PM - ES(BS2201)"
+            result="You don't have any classes today... Enjoy and Be productive in the weekend..."
             return result
         elif day=='sunday':
-            # print("You don't have any classes today... Enjoy and Be productive in the weekend...")
             result="You don't have any classes today... Enjoy and Be productive in the weekend..."
             return result
         
-    def switch_day_304(day):
+    def switch_day_112(day):
         if day=='monday':
-            # print("09:00 AM TO 09:55 AM - ME(BM2201)")
-            # print("10:00 AM TO 10:55 AM - ES(BS2201)")
-            # print("11:00 AM TO 11:55 AM - DA(CS2204)")
-            # print("12:00 PM TO 12:55 PM - DAA(CS2203)")
-            # print("02:00 PM TO 05:55 PM - COA LAB(CS2801)")
-            result="09:00 AM TO 09:55 AM - ME(BM2201)<br>10:00 AM TO 10:55 AM - ES(BS2201)<br>11:00 AM TO 11:55 AM - DA(CS2204)<br>12:00 PM TO 12:55 PM - DAA(CS2203)<br>02:00 PM TO 05:55 PM - COA LAB(CS2801)"
+            result="09:00 AM TO 09:55 AM - SOFT SKILLS(HS3101)\n10:00 AM TO 10:55 AM - OS(CS3101)\n11:00 AM TO 11:55 AM - AI(CS31XX)\n12:00 PM TO 12:55 PM - FLAT(CS3103)\n02:00 PM TO 05:55 PM - OOPS LAB(CS3702)"
             return result
-        elif day=='tuesday':
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("12:00 PM TO 12:55 PM - DAA(CS2203)")
-            # print("02:00 PM TO 02:55 PM - ES(BS2201)")
-            result = "10:00 AM TO 10:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>12:00 PM TO 12:55 PM - DAA(CS2203)<br>02:00 PM TO 02:55 PM - ES(BS2201)"
+        elif day=='tuesday': 
+            result = "09:00 AM TO 09:55 AM - POM(BM002)\n10:00 AM TO 10:55 AM - AI(CS31XX)\n11:00 AM TO 11:55 AM - OOPS(CS3102)\n02:00 PM TO 05:55 PM - OS LAB(BS2201)"
             return result
         elif day=='wednesday':
-            # print("09:00 AM TO 09:55 AM - DA(CS2204)")
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DBMS(CS2202)")
-            # print("12:00 PM TO 12:55 PM - ME(BM2201)")
-            # print("02:00 PM TO 05:55 PM - DBMS LAB(CS2802)")
-            result="09:00 AM TO 09:55 AM - DA(CS2204)<br>10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DBMS(CS2202)<br>12:00 PM TO 12:55 PM - ME(BM2201)"
+            result="09:00 AM TO 09:55 AM - AI(CS31XX)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - OS(CS3101)\n12:00 PM TO 12:55 PM - FLAT(CS3013)"
             return result
         elif day=='thursday':
-            # print("09:00 AM TO 09:55 AM - ME(BM2201)")
-            # print("10:00 AM TO 10:55 AM - ES(BS2201)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("12:00 PM TO 12:55 PM - DA(CS2204)")
-            result ="09:00 AM TO 09:55 AM - ME(BM2201)<br>10:00 AM TO 10:55 AM - ES(BS2201)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>12:00 PM TO 12:55 PM - DA(CS2204)"
+            result ="09:00 AM TO 09:55 AM - FLAT(CS3103)<br>10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - SS(EC3106)"
             return result
         elif day=='friday':
-            # print("09:00 AM TO 09:55 AM - COA(CS2201)")
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("02:00 PM TO 05:55 PM - DAA LAB(CS2803)")
-            result = "09:00 AM TO 09:55 AM - COA(CS2201)<br>10:00 AM TO 10:55 AM - DBMS(CS2202)<br>02:00 PM TO 05:55 PM - DAA LAB(CS2803)"
+            result = "09:00 AM TO 09:55 AM - SS(EC3106)\n10:00 AM TO 10:55 AM - OS(CS3101)\n11:00 AM TO 11:55 AM - SOFT SKILLS(HS3101)\n12:00 PM TO 12:55 PM - POM(BM002)"
             return result
         elif day=='saturday':
-            # print("04:00 PM TO 04:55 PM - ES(BS2201)")
-            result="04:00 PM TO 04:55 PM - ES(BS2201)"
+            result="09:00 AM TO 09:55 AM - SS(EC3106)\n10:00 AM TO 10:55 AM - POM(BM002)"
             return result
         elif day=='sunday':
             result="You don't have any classes today... Enjoy and Be productive in the weekend..."
             return result
 
 
-    def switch_day_305(day):
-        if day=='monday':
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("02:00 PM TO 02:55 PM - ES(BS2201)")
-            # print("03:00 PM TO 03:55 PM - ME(BM2201)")
-            result="10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>02:00 PM TO 02:55 PM - ES(BS2201)<br>03:00 PM TO 03:55 PM - ME(BM2201)"
+    def switch_day_113(day):
+        if day=='monday': 
+            result="09:00 AM TO 09:55 AM - OOPS(CS3102)\n10:00 AM TO 10:55 AM - OS(CS3101)\n11:00 AM TO 11:55 AM - SS(EC3106)\n12:00 PM TO 12:55 PM - POM(BM002)"
             return result
         elif day=='tuesday':
-            # print("09:00 AM TO 09:55 AM - DBMS(CS2202)")
-            # print("10:00 AM TO 10:55 AM - DA(CS2204)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("02:00 PM TO 05:55 PM - DAA LAB(CS2803)")
-            result="09:00 AM TO 09:55 AM - DBMS(CS2202)<br>10:00 AM TO 10:55 AM - DA(CS2204)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>02:00 PM TO 05:55 PM - DAA LAB(CS2803)"
+            result="09:00 AM TO 09:55 AM - FLAT(CS3103)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - OS(CS3101)\n12:00 PM TO 12:55 PM - AI(CS31XX)\n02:00 AM TO 05:55 PM - OOPS LAB(CS3702)"
             return result
         elif day=='wednesday':
-            # print("09:00 AM TO 09:55 AM - DBMS(CS2202)")
-            # print("10:00 AM TO 10:55 AM - COA(CS2201)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("12:00 PM TO 12:55 PM - DA(CS2204)")
-            # print("02:00 PM TO 05:55 PM - COA LAB(CS2801)")
-            result="09:00 AM TO 09:55 AM - DBMS(CS2202)<br>10:00 AM TO 10:55 AM - COA(CS2201)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>12:00 PM TO 12:55 PM - DA(CS2204)<br>02:00 PM TO 05:55 PM - COA LAB(CS2801)"
+            result="09:00 AM TO 09:55 AM - SOFT SKILLS(HS3101)\n10:00 AM TO 10:55 AM - OS(CS3101)\n11:00 AM TO 11:55 AM - OOPS(CS3102)\n12:00 PM TO 12:55 PM - FLAT(CS3104)"
             return result
         elif day=='thursday':
-            # print("09:00 AM TO 12:55 PM - DBMS LAB(CS2802)")
-            # print("03:00 PM TO 03:55 PM - ME(BM2201)")
-            result="09:00 AM TO 12:55 PM - DBMS LAB(CS2802)<br>03:00 PM TO 03:55 PM - ME(BM2201)"
+            result="09:00 AM TO 09:55 AM - FLAT(CS3103)\n10:00 AM TO 10:55 AM - SS(EC3106)\n12:00 PM TO 12:55 PM - AI(CS31XX)\n02:00 AM TO 05:55 PM - OS LAB(CS3702)"
             return result
         elif day=='friday':
-            # print("09:00 AM TO 09:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - DA(CS2204)")
-            # print("12:00 AM TO 12:55 PM - DAA(CS2203)")
-            # print("03:00 PM TO 03:55 PM - ES(BS2201)")
-            # print("04:00 PM TO 04:55 PM - ME(BM2201)")
-            result="09:00 AM TO 09:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - DA(CS2204)<br>12:00 AM TO 12:55 PM - DAA(CS2203)<br>03:00 PM TO 03:55 PM - ES(BS2201)<br>04:00 PM TO 04:55 PM - ME(BM2201)"
+            result="09:00 AM TO 09:55 AM - POM(BM002)\n10:00 AM TO 10:55 AM - SOFT SKILLS(HS3101)\n11:00 AM TO 11:55 AM - AI(CS31XX)"
             return result
         elif day=='saturday':
-            # print("02:00 PM TO 02:55 PM - ES(BS2201)")
-            result="02:00 PM TO 02:55 PM - ES(BS2201)"
+            result="09:00 AM TO 09:55 AM - POM(BM002)\n10:00 AM TO 10:55 AM - SS(EC3106)"
             return result
         elif day=='sunday':
             result="You don't have any classes today... Enjoy and Be productive in the weekend..."
@@ -209,63 +123,40 @@ def hello_world():
             
     def switch_day_012(day):
         if day=='monday':
-            # print("10:00 AM TO 10:55 AM - DA(CS2204)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("12:00 PM TO 12:55 PM - ES(BS2201)")
-            result="10:00 AM TO 10:55 AM - DA(CS2204)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>12:00 PM TO 12:55 PM - ES(BS2201)"
+            result="09:00 AM TO 09:55 AM - POM(BM002)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - OS(CS3101)\n12:00 PM TO 12:55 PM - AI(CS31XX)\n02:00 AM TO 05:55 PM - OS LAB(CS3701)"
             return result
         elif day=='tuesday':
-            # print("09:00 AM TO 09:55 AM - DAA(CS2203)")
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - DA(CS2204)")
-            # print("12:00 PM TO 12:55 PM - COA(CS2201)")
-            # print("02:00 PM TO 05:55 PM - DBMS LAB(CS2802)")
-            result="09:00 AM TO 09:55 AM - DAA(CS2203)<br>10:00 AM TO 10:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - DA(CS2204)<br>12:00 PM TO 12:55 PM - COA(CS2201)<br>02:00 PM TO 05:55 PM - DBMS LAB(CS2802)"
+            result="09:00 AM TO 09:55 AM - SOFT SKILLS(CS3103)\n10:00 AM TO 10:55 AM - FLAT(CS3103)\n11:00 AM TO 11:55 AM - OOPS(CS3102)\n12:00 PM TO 12:55 PM - OS(CS3101)\n02:00 AM TO 02:55 PM - SS(EC3101)"
             return result
         elif day=='wednesday':
-            # print("09:00 AM TO 09:55 AM - ME(BM2201)")
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - COA(CS2201)")
-            # print("12:00 PM TO 12:55 PM - DAA(CS2203)")
-            # print("03:00 PM TO 03:55 PM - ES(BS2201)")
-            result="09:00 AM TO 09:55 AM - ME(BM2201)<br>10:00 AM TO 10:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - COA(CS2201)<br>12:00 PM TO 12:55 PM - DAA(CS2203)<br>03:00 PM TO 03:55 PM - ES(BS2201)"
+            result="09:00 AM TO 09:55 AM - OS(CS3101)\n10:00 AM TO 10:55 AM - OOPS(CS3102)\n11:00 AM TO 11:55 AM - SS(EC3106)\n12:00 PM TO 12:55 PM - SOFT SKILLS(HS3101)\n02:00 AM TO 05:55 PM - OOPS LAB(CS3702)"
             return result
         elif day=='thursday':
-            # print("09:00 AM TO 09:55 AM - ES(BS2201)")
-            # print("10:00 AM TO 11:55 AM - ME(BM2201)")
-            # print("02:00 PM TO 05:55 PM - DAA LAB(CS2803)")
-            result="09:00 AM TO 09:55 AM - ES(BS2201)<br>10:00 AM TO 11:55 AM - ME(BM2201)<br>02:00 PM TO 05:55 PM - DAA LAB(CS2803)"
+            result="09:00 AM TO 09:55 AM - SS(EC3106)\n10:00 AM TO 10:55 AM -FLAT(CS3103)\n11:00 AM TO 11:55 AM - AI(CS31XX)\n12:00 PM TO 12:55 PM - POM(BM002)"
             return result
         elif day=='friday':
-            # print("09:00 AM TO 09:55 AM - DA(CS2204)")
-            # print("10:00 AM TO 10:55 AM - DBMS(CS2202)")
-            # print("11:00 AM TO 11:55 AM - DAA(CS2203)")
-            # print("12:00 PM TO 12:55 PM - ME(BM2201)")
-            # print("02:00 PM TO 05:55 PM - COA LAB(CS2801)")
-            result="09:00 AM TO 09:55 AM - DA(CS2204)<br>10:00 AM TO 10:55 AM - DBMS(CS2202)<br>11:00 AM TO 11:55 AM - DAA(CS2203)<br>12:00 PM TO 12:55 PM - ME(BM2201)<br>02:00 PM TO 05:55 PM - COA LAB(CS2801)"
+            result="10:00 AM TO 10:55 AM - POM(BM002)\n11:00 AM TO 11:55 AM - FLAT(CS3103)\n12:00 PM TO 12:55 PM - AI(CS31XX)"
             return result
         elif day=='saturday':
-            # print("Chill bro")
             result="Chill bro"
             return result
         elif day=='sunday':
-            # print("You don't have any classes today... Enjoy and Be productive in the weekend...")   
             result="You don't have any classes today... Enjoy and Be productive in the weekend..."      
             return result
 
     def switch_cls(cls,day):
-        if cls == "302":
+        if cls == "114":
             # day=input("Select Day: \n")
-            return switch_day_302(day)
-        elif cls == "303":
+            return switch_day_114(day)
+        elif cls == "103":
             # day=input("Select Day: \n")
-            return switch_day_303(day)
-        elif cls == "304":
+            return switch_day_103(day)
+        elif cls == "112":
             # day=input("Select Day: \n")
-            return switch_day_304(day)
-        elif cls == "305":
+            return switch_day_112(day)
+        elif cls == "113":
             # day=input("Select Day: \n")
-            return switch_day_305(day)
+            return switch_day_113(day)
         elif cls == "012":
             # day=input("Select Day: \n")
             return switch_day_012(day)
